@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Work Sans', sans-serif !important;
+}
+
+h1 {
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #C3B5A2;
+	text-transform: lowercase;
+}
+
+h1 span {
+	color: #998D7D;
+	text-transform: uppercase;
+}
+
+#main {
+	background-color: #fafafa;
+}
+
+section#logo {
+	background-color: #fefefe;
+	text-align: center;
+	padding: 1em 0;
+}
+
+/* mat-panel-title, mat-panel-description {
+	color: #C3B5A2 !important;
+} */
+
+mat-expansion-panel.mat-expansion-panel {
+	background-color: #fafafa;
+}

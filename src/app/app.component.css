@@ -1,0 +1,13 @@
+form.loginForm, form.signUpForm {
+    width: 50% !important;
+    margin: 0 auto !important;
+}
+
+form.loginForm > *, form.signUpForm > * {
+    width: 100%
+}
+
+
+.mat-expansion-panel {
+	box-shadow: none !important;
+}
